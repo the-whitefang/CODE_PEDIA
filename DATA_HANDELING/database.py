@@ -25,7 +25,7 @@ cursor.execute(
     """
 )
 
-start_date = date(2025, 5, 1)
+start_date = date.today()
 
 for day_offset in range(30):  # For 30 days
     current_date = start_date + timedelta(days=day_offset)
