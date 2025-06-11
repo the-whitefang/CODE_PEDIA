@@ -9,7 +9,7 @@ bot = ChatBot("Alex", read_only= False,
               }
               ])
 
-list_to_train = [
+list_to_train =[
     "Hi!",
     "Hi there",
     "who are you?",
