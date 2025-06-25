@@ -43,10 +43,16 @@ def query_chatbot(question):
     return llm.invoke(prompt)
 
 if __name__ == "__main__":
-    while True:
-        user_question = input("\nAsk a question (or type 'exit'): ")
-        if user_question.lower() in ["exit", "quit"]:
-            break
-        answer = query_chatbot(user_question)
-        print("\n Chatbot: ")
-        print(answer)
+    mode = input("Run Chatbot or Test mode? (chat/ test): ")
+    if mode == "chat":
+        while True:
+            user_question = input("\nAsk a question (or type 'exit'): ")
+            if user_question.lower() in ["exit", "quit"]:
+                break
+            answer = query_chatbot(user_question)
+            print("\n Chatbot: ")
+            print(answer)
+    elif mode == "test":
+        from chatbot_evaluator import evaluate_chatbot, test_cases
+
+        evaluate_chatbot(test_cases)

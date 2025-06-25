@@ -1,7 +1,7 @@
 import pandas as pd
 
 def load_data():
-    return pd.read_csv('sales_and_customer_insights.csv')
+    return pd.read_csv('sales_and_customer_insights 1(in).csv')
 
 def get_seasonal_trends():
     df = load_data()
