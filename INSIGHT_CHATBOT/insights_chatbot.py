@@ -5,7 +5,7 @@ from insights_model import get_summary_insights
 from sales_insights import get_regional_trends, get_seasonal_trends, get_churn_percentage
 from langchain.prompts import  PromptTemplate
 
-llm = Ollama(model="llama3")
+llm =Ollama(model="llama3")
 
 prompt_template = PromptTemplate(
     input_variables=["context", "question"],
