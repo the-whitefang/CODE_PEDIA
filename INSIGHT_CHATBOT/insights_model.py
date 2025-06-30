@@ -3,7 +3,7 @@ import pandas as pd
 def load_data():
     return pd.read_csv('sales_and_customer_insights 1(in).csv')
 
-# All insight functions that can be taken from the dataset.
+# All basic insight functions that can be taken from the dataset.
 
 def get_total_sales():
     df = load_data()

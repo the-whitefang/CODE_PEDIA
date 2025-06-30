@@ -1,0 +1,52 @@
+Objectives:
+Load and Clean the Data
+
+Read the CSV using pd.read_csv().
+
+Parse dates in the Date column.
+
+Check for missing or duplicate rows and handle them.
+
+Basic Exploration
+
+Display the first 5 rows.
+
+Show data types, shape, and summary statistics.
+
+Data Analysis Tasks
+
+Total revenue: Sum of Total Price.
+
+Top 5 customers by total revenue.
+
+Region-wise revenue breakdown.
+
+Monthly sales trends (group by month and sum revenue).
+
+Most sold product by quantity.
+
+Visualization (optional if matplotlib/seaborn is allowed)
+
+Line chart of monthly revenue.
+
+Bar chart of top 5 products by quantity.
+
+Export Results
+
+Save the top customers and region-wise revenue to separate CSV files.
+
+✅ Deliverables:
+Jupyter Notebook or .py file with:
+
+Code
+
+Explanations in c
+
+omments or markdown
+
+Plots (if included)
+
+Output CSV files for summarized results
+
+Data path -- https://www.kaggle.com/datasets/kyanyoga/sample-sales-data
+

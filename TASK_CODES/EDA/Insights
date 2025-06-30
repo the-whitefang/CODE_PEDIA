@@ -1,0 +1,30 @@
+Insights:
+1. based on the medium we can say that DOE and SENP makes maximum calls.
+
+2. now between DOE and SENP, DOE channel makes the maximum calls as compared to the SENP channel.
+
+3. customers providing the property values and types are more likely to get the loan as it can be said that the property can be kept as a gurantee by the loan provider for their new loan.
+
+4. customers not providing their bt bank details barely affects from their loan not getting sanctioned.
+
+5. from the tenure list we can also say that those customers having a tenure of either 5 or 1 are have more chances of getting the loan.
+
+6. Though its less we can say that about 3.34% of the calls made ended up with AUTODISPOSE.	
+
+7. From the following graph we can see that the max number of calls were made around 2 in the afternoon with a count of 1902 calls.
+
+8. all calls fall under the PAM group which shows that its focused operational effort.
+
+9. from the total number of calls we can also conclude that from these calls around 10.13% calls ended up successfully as SALE_DONE.
+
+10. from the high disconnect rate the data suggests that there are potential quality or engagement issue from the begining of the call.
+
+11. from the number of call backs we can suggest that those calls ended up fruitful and the customer made a call back for possible more info or possible loan transfer.
+
+12. from the peak call hour graph we can aslo say that from morning 10 am to afternoon 2 pm most of calls happen that is this is peak time when maximum of the customers are ok with having a conversation with the agent.
+
+13. looking at each of the channels, call made through e DOE is the primary focus area but smaller segments like SENP and CIBIWATCH may need more specialized strategies to increase their numbers.
+
+14. only 183 out of 10,000 calls had appointment time recorded which indicates 1.83% scheduling capture, which can hinder follow-ups or conversion tracking.
+
+15. out of 10,000 calls only 22.92% of the calls were closed by the agents, the rest 77.08% remains unclosed, indicating possible gaps in the closure discipline.
