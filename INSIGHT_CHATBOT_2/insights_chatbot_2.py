@@ -9,7 +9,7 @@ def ask_llm(prompt):
     # import pdb;pdb.set_trace()
     # Send prompt to LLaMA 3 via Ollama
     result = subprocess.run(
-        ["ollama", "run", "llama3"],
+        ["ollama", "run", "mistral"], # or llama3
         input=prompt,
         text=True,
         capture_output=True
